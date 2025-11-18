@@ -10,6 +10,7 @@ public class Usuario {
 
     private String nome;
     private String email;
+    private String nascimento;
 
     // Getters e Setters
 
@@ -36,5 +37,12 @@ public class Usuario {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+    public String getNascimento() {
+        return nascimento;
+    }
+
+    public void setNascimento(String nascimento) {
+        this.nascimento = nascimento;
     }
 }   
